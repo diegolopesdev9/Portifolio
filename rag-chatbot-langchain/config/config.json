@@ -1,0 +1,16 @@
+{
+  "embedding_model": "models/embedding-001",
+  "llm_model": "gemini-1.5-pro",
+  "temperature": 0.7,
+  "persist_directory": "./chroma_db",
+  "max_results": 3,
+  "max_retries": 3,
+  "timeout": 30,
+  "cache_size": 100,
+  "rate_limit_requests": 10,
+  "rate_limit_window": 60,
+  "min_query_length": 3,
+  "max_query_length": 1000,
+  "feedback_file": "feedback.jsonl",
+  "metrics_file": "metrics.jsonl"
+}
