@@ -1,6 +1,6 @@
 {
   "embedding_model": "models/embedding-001",
-  "llm_model": "gemini-1.5-pro",
+  "llm_model": "gemini-1.5-flash",
   "temperature": 0.7,
   "persist_directory": "./chroma_db",
   "max_results": 3,
