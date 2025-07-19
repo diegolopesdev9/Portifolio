@@ -156,30 +156,68 @@ Quando executar, você verá um menu com estas opções:
 ### Exemplo de Interação Completa
 
 ```bash
-🚀 CHATBOT RAG OTIMIZADO - DOCUMENTAÇÃO LANGCHAIN
+🚀 Sistema RAG com Google Gemini - Versão Final
+=======================================================
+🚀 Sistema RAG inicializado com sucesso!
+✅ API Key configurada!
+✅ Sistema pronto para uso!
+
+🎯 Escolha como usar o sistema:
+1. 💬 Chat interativo completo
+2. ❓ Pergunta única
+3. 🧪 Teste de conexão
+4. 📊 Apenas informações do sistema
+
+Sua escolha (1-4): 1
 ================================================================================
-Comandos disponíveis:
-  • Digite sua pergunta normalmente
-  • 'sair' ou 'quit' para encerrar
-  • 'limpar' para limpar a tela
-  • 'stats' para ver estatísticas
-  • 'ajuda' para ver este menu
+🤖 CHAT RAG COM GOOGLE GEMINI - VERSÃO AVANÇADA
+================================================================================
+Comandos especiais:
+  • 'sair' ou 'quit' - Encerra o chat
+  • 'ajuda' - Mostra comandos disponíveis
+  • 'stats' - Mostra estatísticas da sessão
+  • 'limpar' - Limpa a tela
+  • 'teste' - Testa conexão com Gemini
+================================================================================
+💡 Dica: Seja específico em suas perguntas para obter melhores respostas!
 ================================================================================
 
-💬 Sua pergunta: Como usar o WebBaseLoader?
-📝 Resposta: O WebBaseLoader é uma ferramenta do LangChain para carregar 
-conteúdo web. Permite extrair texto de páginas HTML de forma automática...
+💬 Sua pergunta: O que é langchain?
+🔄 Consultando Google Gemini...
 
-📚 Fontes consultadas (2):
-  1. langchain_community_docs.pdf (Página: 23)
-     Preview: WebBaseLoader é uma classe que permite carregar documentos...
-  2. web_loaders_guide.md (Página: 1)
-     Preview: Para usar o WebBaseLoader, primeiro importe a classe...
+🤖 Pergunta: O que é langchain?
+📝 Resposta: LangChain é um framework para desenvolver aplicações que utilizam modelos de linguagem grandes (LLMs).  Em essência, ela simplifica o processo de construção de aplicações que interagem com LLMs, oferecendo ferramentas e estruturas para lidar com tarefas complexas que vão além de uma simples chamada de API.
 
-⭐ Avalie esta resposta (1-5, ou Enter para pular): 5
-💭 Comentário opcional: Resposta muito clara e completa!
-✅ Feedback registrado!
+LangChain facilita a construção de aplicações com as seguintes características:
+
+* **Cadeias de pensamento (Chains):** Permite sequenciar múltiplas chamadas a LLMs ou outros utilitários, criando fluxos de trabalho mais complexos.  Por exemplo, você pode construir uma cadeia que primeiro extrai informações de um documento, depois as resume e, finalmente, gera um e-mail baseado nesse resumo.
+
+* **Memória:** Permite que as aplicações "lembrem" interações anteriores com o usuário, criando conversas mais contextuais e coerentes. Isso é crucial para chatbots e agentes conversacionais.
+
+* **Indexação:** Facilita a indexação e busca de informações em grandes conjuntos de dados, permitindo que o LLM acesse e processe informações relevantes para responder a perguntas ou gerar conteúdo.  Imagine um chatbot que acessa uma base de conhecimento interna para responder dúvidas sobre um produto específico.
+
+* **Integração com outros utilitários:**  LangChain permite a integração com outros serviços e APIs, como bancos de dados, APIs externas e ferramentas de processamento de texto. Isso amplia as capacidades das aplicações, permitindo que elas realizem tarefas mais diversificadas.
+
+
+Em resumo, LangChain abstrai a complexidade de interagir com LLMs, fornecendo ferramentas para construir aplicações mais robustas, inteligentes e capazes de lidar com tarefas do mundo real.  Ela não é um LLM em si, mas sim um framework que *facilita* a utilização de LLMs.
+🔧 Modelo: gemini-1.5-flash
+✅ Resposta real do Google Gemini!
+📊 Status: success
+⏰ Timestamp: 2025-07-19T14:43:13.686560
+📈 Consultas na sessão: 1
 --------------------------------------------------------------------------------
+
+💬 Sua pergunta: sair
+
+============================================================
+📊 RESUMO DA SESSÃO
+============================================================
+⏰ Duração total: 0:00:51.485830
+🔢 Total de consultas: 1
+🤖 Modelo utilizado: gemini-1.5-flash
+============================================================
+👋 Obrigado por usar o sistema RAG! Até logo!
+
 ```
 
 ## 📊 Funcionalidades Avançadas
